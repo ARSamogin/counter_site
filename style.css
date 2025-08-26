@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container{
+    height: 15em;
+    width: 12em;
+    border-style: solid;
+    border-color: navy;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(40px);
+   
+}
+
+.container > p{
+    font-family: helvetica;
+    color: navy;
+    font-size: 4em;
+    text-align: center;
+    margin: 5px;
+}
+
+.container > .btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btns > button{
+    margin: 3em 0;
+    padding: 0 1.5em;
+    width: 4em;
+    height: 3em;
+    font-family: Helvetica;
+    background-color: navy;
+    color: antiquewhite;
+    border-radius: 10px;
+    border: 0;
+}
+
+.btns > button:hover{
+    transform: scale(1.1);
+}

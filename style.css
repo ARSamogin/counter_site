@@ -34,13 +34,13 @@ body{
     margin: 5px;
 }
 
-.container > .btns{
+.container > .btns, .btns2{
     display: flex;
     justify-content: space-evenly;
 }
 
-.btns > button{
-    margin: 3em 0;
+.btns > button , .btns2 > button{
+    margin: 1em 0;
     padding: 0 1.5em;
     width: 4em;
     height: 3em;
@@ -51,6 +51,6 @@ body{
     border: 0;
 }
 
-.btns > button:hover{
+.btns > button:hover , .btns2 > button:hover{
     transform: scale(1.1);
 }
